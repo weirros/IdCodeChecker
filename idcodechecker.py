@@ -9,7 +9,7 @@ Created on Thu Nov 11 10:19:07 2021
 
 def map2dec(a):
     
-
+    a +='0'
     mapping = {
         "0": '0',
         "1": '1',
@@ -100,7 +100,7 @@ def map2dec(a):
             continue
         tstring+=mapping[i]    
    
-    ta = tstring[::-1] +'0'                                                     #倒序输出，加一个0补位（模拟校验码）
+    ta = tstring[::-1]                                                  #倒序输出，加一个0补位（模拟校验码）
     
     for i, digit in enumerate([int(x) for x in ta]):                            #带索引，值
         
