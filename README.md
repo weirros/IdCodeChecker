@@ -1,4 +1,9 @@
 # IdCodeChecker
+
+Update2021-11-25
+## 目前要求通过赋码接口取得字串值，无法在赋码接口外自行生码；因此目前这个算法已经不具有参考意义；
+## 同时提醒目前不必再寻找其他的校验算法；此文档已经作废；
+
 Chinese ZIIOT coding check code generater；China MA Cdoe，MA.156 UDI MA校验码；DI、PI校验码算法；MA码，IDCode,UDI校验码
 
 
